@@ -1,1 +1,1 @@
-web: gunicorn 'melody-backend.wsgi'
+web: gunicorn main:app
