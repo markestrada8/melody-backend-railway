@@ -6,12 +6,17 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask = "*"
+flask = "==1.1.2"
 flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
-gunicorn = "*"
+gunicorn = "==20.0.4"
 flask-cors = "*"
+click = "==7.1.2"
+itsdangerous = "==1.1.0"
+jinja2 = "==2.11.3"
+markupsafe = "==1.1.1"
+werkzeug = "==1.0.1"
 
 [requires]
 python_version = "*"
